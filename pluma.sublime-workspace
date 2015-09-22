@@ -8,21 +8,18 @@
 	"buffers":
 	[
 		{
-			"contents": "using UnityEngine;\nusing System.Collections;\n\npublic class CharacterMovement : MonoBehaviour {\n\n	// Use this for initialization\n	void Start () {\n    GameObject.getCompo\n	}\n\n	// Update is called once per frame\n	void Update () {\n\n	}\n}\n",
-			"file": "Assets/Scripts/Character/CharacterMovement.cs",
-			"file_size": 210,
-			"file_write_time": 130874301860000000,
+			"file": "pluma.sublime-project",
 			"settings":
 			{
-				"buffer_size": 233,
+				"buffer_size": 123,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "pluma.sublime-project",
+			"file": "pluma/Assets/Scripts/Character/CharacterMovement.cs",
 			"settings":
 			{
-				"buffer_size": 110,
+				"buffer_size": 183,
 				"line_ending": "Unix"
 			}
 		}
@@ -35,9 +32,13 @@
 	"command_palette":
 	{
 		"height": 233.0,
-		"last_filter": "install",
+		"last_filter": "gitgutter",
 		"selected_items":
 		[
+			[
+				"gitgutter",
+				"GitGutter: Compare Against Branch"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -140,10 +141,14 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/nathankluth/Documents/Games/pluma/pluma"
+		"/Users/nathankluth/Documents/Games/pluma/pluma",
+		"/Users/nathankluth/Documents/Games/pluma/pluma/Assets/Scenes",
+		"/Users/nathankluth/Documents/Games/pluma/pluma/Assets/Scripts",
+		"/Users/nathankluth/Documents/Games/pluma/pluma/Assets/Scripts/Character"
 	],
 	"file_history":
 	[
+		"/Users/nathankluth/Documents/Games/pluma/README.md",
 		"/Users/nathankluth/Documents/Games/pluma/pluma/Assets/Scripts/Character/CharacterMovement.cs",
 		"/Users/nathankluth/Sites/premier/yello/src/actions/broadcasters.js",
 		"/Users/nathankluth/Sites/premier/yello/src/component/broadcast/controls/broadcastOptions.jsx",
@@ -166,7 +171,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -180,6 +185,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"pluma",
 			"ico",
 			"'use strict';\n\nimport { NEW_MESSAGE, NEW_USER } from './constants';\n\nexport let newMessage = (message) => ({\n  type: NEW_MESSAGE,\n  message\n});\n\nexport let newUser = (user) => ({\n  type: NEW_USER,\n  user, \n});\n"
 		],
@@ -204,39 +210,11 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Assets/Scripts/Character/CharacterMovement.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 233,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								230,
-								230
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C#/C#.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "pluma.sublime-project",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 110,
+						"buffer_size": 123,
 						"regions":
 						{
 						},
@@ -250,6 +228,38 @@
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "pluma/Assets/Scripts/Character/CharacterMovement.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"165,171": "Method 'Update' has the same with 'Start'"
+							},
+							"syntax": "Packages/C#/C#.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -299,6 +309,10 @@
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 98.0
 	},
 	"pinned_build_system": "",
 	"project": "pluma.sublime-project",
