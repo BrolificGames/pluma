@@ -1,13 +1,17 @@
 using UnityEngine;
 
-public class CharacterMovement : MonoBehaviour {
+public class CharacterMovement : MonoBehaviour 
+{
+	private GameObject player;
 
-	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
+		player = gameObject;	
 	}
 
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
 
 	}
 }
